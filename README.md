@@ -16,6 +16,7 @@ To ensure anonymity for review, all identifying information (authors, affiliatio
 
 ## Requirements
 This repository contains scripts implemented using Python 3.12.3 and Python 3.13.5.
+
 Key packages include: 
 ```bash
 numpy pandas torch spacy scikit-learn transformers optuna matplotlib openai contractions deepeval
@@ -23,6 +24,7 @@ numpy pandas torch spacy scikit-learn transformers optuna matplotlib openai cont
 
 ## Reproducibility Note
 All scripts used to generate and evaluate the dataset are included for transparency.  
+
 The code is provided for inspection purposes only and does not need to be executed to use the dataset.
 
 ## Usage
@@ -31,5 +33,8 @@ The code is provided for inspection purposes only and does not need to be execut
 ## License
 To be specified after acceptance.
 
-**Note: This repository is part of an anonymous submission and will be made fully public after acceptance.**
+## Citation
+Citation information will be added upon acceptance of the paper
+
+**Note: This repository is part of an anonymous submission. Full dataset documentation and citation details will be provided upon acceptance of the paper.**
 
