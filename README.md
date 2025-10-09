@@ -4,10 +4,10 @@
 This repository contains the code, data, and supporting materials for the paper **"A Synthetic Conversational Dataset for Type 2 Diabetes Management"**, submitted to **LREC 2026**.
 
 The repository includes:
-- Persona bio descriptions and synthetic conversations
-- Annotation schema and instructions
-- Conversational Triple Extraction (CTE) code and baseline models
-- SPACEQ questionnaire and rating rubric for human-based evaluation
+- **Synthetic Data**: Persona biographies and multi-turn patient–agent conversations, along with the prompts used for their generation.
+- **Annotation Resources**: The complete SPO annotation schema, detailed annotation guidelines, and the annotated datasets (train, validation, and test splits).
+- **Conversational Triple Extraction (CTE)**: Source code and baseline models for rule-based, prompt-based, and fine-tuned approaches.
+- **Evaluation Materials**: The SPACEQ questionnaire and corresponding rating rubric used for LLM- and expert-based evaluation of dialogue quality.
 
 To ensure anonymity for review, all identifying information (authors, affiliations, and institutional details) has been removed.
 
@@ -26,9 +26,6 @@ numpy pandas torch spacy scikit-learn transformers optuna matplotlib openai cont
 All scripts used to generate and evaluate the dataset are included for transparency.  
 
 The code is provided for inspection purposes only and does not need to be executed to use the dataset.
-
-## Usage
-
 
 ## License
 To be specified after acceptance.
