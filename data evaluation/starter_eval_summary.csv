@@ -1,5 +1,0 @@
-,expected_mean,expected_mean,expected_mean,expected_mean,expected_std,expected_std,expected_std,expected_std,entropy_mean,entropy_mean,entropy_mean,entropy_mean,entropy_std,entropy_std,entropy_std,entropy_std
-dimension,clarity,fluency,naturalness,structure,clarity,fluency,naturalness,structure,clarity,fluency,naturalness,structure,clarity,fluency,naturalness,structure
-starter,,,,,,,,,,,,,,,,
-Agent,4.457,4.703,4.455,4.13,0.054,0.137,0.096,0.134,0.916,0.631,0.913,0.861,0.022,0.183,0.038,0.102
-Patient,4.48,4.698,4.453,4.147,0.041,0.138,0.088,0.092,0.907,0.639,0.915,0.864,0.018,0.187,0.035,0.091

@@ -1,5 +1,0 @@
-Dimension,N,Avg. Expected,SD (Expected),Avg. Entropy,SD (Entropy)
-Fluency,256,4.7,0.137,0.635,0.185
-Naturalness,256,4.454,0.092,0.914,0.036
-Clarity,256,4.468,0.049,0.912,0.021
-Structure,256,4.138,0.116,0.862,0.096
