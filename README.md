@@ -1,6 +1,6 @@
 # Synthetic Patient–Agent Dialogues for Type 2 Diabetes Management
 
-## Overview
+# Overview
 This repository contains the code, data, and supporting materials for the paper **"A Synthetic Conversational Dataset for Type 2 Diabetes Management"**, submitted to **LREC 2026**.
 
 **Note: This repository is part of an anonymous submission. Full dataset and code documentation, as well as citation details will be provided upon acceptance of the paper.**
@@ -13,12 +13,12 @@ The repository includes:
 
 To ensure anonymity for review, all identifying information (authors, affiliations, and institutional details) has been removed.
 
-## Contents
-# 1. Dataset
+# Contents
+## 1. Dataset
 
 The `dataset/` directory includes all data resources used and described in the paper.
 
-## 1.1 `dataset/dialogues/`
+### 1.1 `dataset/dialogues/`
 
 Contains all generated and annotated dialogues between the synthetic patients and the conversational agent.
 
@@ -28,14 +28,14 @@ Contains all generated and annotated dialogues between the synthetic patients an
   - `validation.csv` – Validation split  
   - `test.csv` – Test split  
 
-## 1.2 `dataset/personas/`
+### 1.2 `dataset/personas/`
 
 Stores the patient persona profiles used to guide conversation generation.
 
 - **`personas_bios.txt`** – Full textual biographies of each synthetic patient persona.  
 - **`personas_metadata.json`** – Structured metadata describing demographic and lifestyle attributes (e.g., age, gender, ethnicity, place of birth).
 
-## 1.3 `dataset/prompts/`
+### 1.3 `dataset/prompts/`
 
 Includes all prompt templates used throughout the data generation and annotation process.
 
@@ -46,7 +46,7 @@ Includes all prompt templates used throughout the data generation and annotation
 
 ---
 
-# 2. Documentation
+## 2. Documentation
 
 - **`docs/annotation_guidelines.pdf`**  
   Comprehensive guidelines for annotating synthetic patient–agent dialogues with Subject–Predicate–Object (SPO) labels.  
@@ -58,7 +58,7 @@ Includes all prompt templates used throughout the data generation and annotation
 
 ---
 
-# 3. How to Use
+## 3. How to Use
 
 All dataset files are stored in plain text or CSV format and can be accessed directly without running any code.
 
@@ -66,7 +66,7 @@ Researchers can reproduce the dialogue generation and annotation processes using
 
 Code for conversational triple extraction baselines (**rule-based**, **GPT-based**, and **fine-tuned BERT**) is included under the `code/` directory.
 
-### Quick navigation
+## Quick navigation
 
 | Area | Path |
 |---|---|
@@ -82,7 +82,7 @@ Code for conversational triple extraction baselines (**rule-based**, **GPT-based
 | Annotation guidelines | [`docs/annotation_guidelines.pdf`](docs/annotation_guidelines.pdf) |
 | SPACEQ questionnaire | [`docs/questionnaire_SPACEQ.pdf`](docs/questionnaire_SPACEQ.pdf) |
 
-## Requirements
+# Requirements
 This repository contains scripts implemented using Python 3.12.3 and Python 3.13.5.
 
 Key packages include: 
@@ -90,15 +90,15 @@ Key packages include:
 numpy pandas torch spacy scikit-learn transformers optuna matplotlib openai contractions deepeval
 ```
 
-## Reproducibility Note
+# Reproducibility Note
 All scripts used to generate and evaluate the dataset are included for transparency.  
 
 The code is provided for inspection purposes only and does not need to be executed to use the dataset.
 
-## License
+# License
 To be specified after acceptance.
 
-## Citation
+# Citation
 Citation information will be added upon acceptance of the paper.
 
 
