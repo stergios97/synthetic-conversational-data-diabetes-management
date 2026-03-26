@@ -1,17 +1,19 @@
 # Synthetic Patient–Agent Dialogues for Type 2 Diabetes Management
 
-# Overview
-This repository contains the code, data, and supporting materials for the paper **"A Synthetic Conversational Dataset for Type 2 Diabetes Management"**, submitted to **LREC 2026**.
+This repository contains the data, code, and supporting materials for the paper:
+ 
+> **A Synthetic Conversational Dataset for Type 2 Diabetes Management**  
+> Stergios Ntanavaras, Maaike de Boer, Piek T.J.M. Vossen  
+> *CL4Health Workshop at LREC 2026, Palma de Mallorca, Spain*
 
-**Note: This repository is part of an anonymous submission. Full dataset and code documentation, as well as citation details will be provided upon acceptance of the paper.**
+# Overview
+We present a methodology for generating a high-quality synthetic conversational dataset designed for conversational triple extraction in Type 2 Diabetes management. The dataset includes 16 demographically diverse patient personas and 256 multi-turn patient–caretaker agent dialogues, annotated with Subject–Predicate–Object (SPO) labels at the token level. This work is part of the CHIP initiative 
 
 The repository includes:
 - **Synthetic Data**: Persona biographies and multi-turn patient–agent conversations, along with the prompts used for their generation.
 - **Annotation Resources**: The complete SPO annotation schema, detailed annotation guidelines, and the annotated datasets (train, validation, and test splits).
 - **Conversational Triple Extraction (CTE)**: Source code and baseline models for rule-based, prompt-based, and fine-tuned approaches.
 - **Evaluation Materials**: The SPACEQ questionnaire and corresponding rating rubric used for LLM- and expert-based evaluation of dialogue quality.
-
-To ensure anonymity for review, all identifying information (authors, affiliations, and institutional details) has been removed.
 
 # Contents
 ## 1. Dataset
