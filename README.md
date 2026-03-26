@@ -15,6 +15,30 @@ The repository includes:
 - **Conversational Triple Extraction (CTE)**: Source code and baseline models for rule-based, prompt-based, and fine-tuned approaches.
 - **Evaluation Materials**: The SPACEQ questionnaire and corresponding rating rubric used for LLM- and expert-based evaluation of dialogue quality.
 
+## Repository Structure
+ 
+```
+├── code/                          # Triple extraction baselines
+├── dataset/
+│   ├── dialogues/
+│   │   ├── raw_conversations.txt  # 256 generated conversations
+│   │   └── annotated/
+│   │       ├── train.csv          # Training split (2953 sentences)
+│   │       ├── validation.csv     # Validation split (882 sentences)
+│   │       └── test.csv           # Test split (996 sentences)
+│   ├── personas/
+│   │   ├── personas_bios.txt      # Full persona biographies
+│   │   └── personas_metadata.json # Demographic and lifestyle attributes
+│   └── prompts/
+│       ├── persona_generation_prompts.json
+│       ├── dialogue_generation_prompts.json
+│       ├── annotation_prompt.txt
+│       └── profile.json
+└── docs/
+    ├── annotation_guidelines.pdf  # SPO labeling schema and conventions
+    └── questionnaire_SPACEQ.pdf   # Human evaluation questionnaire
+```
+
 # Contents
 ## 1. Dataset
 
