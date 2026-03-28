@@ -122,7 +122,7 @@ All scripts used to generate and evaluate the dataset are included for transpare
 The code is provided for inspection purposes only and does not need to be executed to use the dataset.
 
 # License
-To be specified after acceptance.
+CC BY 4.0 and the code under MIT
 
 # Citation
 Citation information will be added upon acceptance of the paper.
