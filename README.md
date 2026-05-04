@@ -11,7 +11,7 @@ This repository contains the data, code, and supporting materials for the paper:
 > Stergios Ntanavaras, Maaike H. T. de Boer, Piek Vossen  
 > *CL4Health Workshop at LREC 2026*
 
-# Overview
+## Overview
 We present a methodology for generating a high-quality synthetic conversational dataset designed for conversational triple extraction in Type 2 Diabetes management. The dataset includes 16 demographically diverse patient personas and 256 multi-turn patient–caretaker agent dialogues, annotated with Subject–Predicate–Object (SPO) labels at the token level. 
 
 The repository includes:
@@ -44,12 +44,12 @@ The repository includes:
     └── questionnaire_SPACEQ.pdf   # Human evaluation questionnaire
 ```
 
-# 📋 Contents
-## 1. Dataset
+## 📋 Contents
+### 1. Dataset
 
 The `dataset/` directory includes all data resources used and described in the paper.
 
-### 1.1 `dataset/dialogues/`
+#### 1.1 `dataset/dialogues/`
 
 Contains all generated and annotated dialogues between the synthetic patients and the conversational agent.
 
@@ -59,14 +59,14 @@ Contains all generated and annotated dialogues between the synthetic patients an
   - `validation.csv` – Validation split  
   - `test.csv` – Test split  
 
-### 1.2 `dataset/personas/`
+#### 1.2 `dataset/personas/`
 
 Stores the patient persona profiles used to guide conversation generation.
 
 - **`personas_bios.txt`** – Full textual biographies of each synthetic patient persona.  
 - **`personas_metadata.json`** – Structured metadata describing demographic and lifestyle attributes (e.g., age, gender, ethnicity, place of birth).
 
-### 1.3 `dataset/prompts/`
+#### 1.3 `dataset/prompts/`
 
 Includes all prompt templates used throughout the data generation and annotation process.
 
@@ -77,7 +77,7 @@ Includes all prompt templates used throughout the data generation and annotation
 
 ---
 
-## 2. Documentation
+### 2. Documentation
 
 - **`docs/annotation_guidelines.pdf`**  
   Comprehensive guidelines for annotating synthetic patient–agent dialogues with Subject–Predicate–Object (SPO) labels.  
@@ -89,7 +89,7 @@ Includes all prompt templates used throughout the data generation and annotation
 
 ---
 
-## 3. How to Use
+### 3. How to Use
 
 All dataset files are stored in plain text or CSV format and can be accessed directly without running any code.
 
@@ -97,7 +97,7 @@ Researchers can reproduce the dialogue generation and annotation processes using
 
 Code for conversational triple extraction baselines (**rule-based**, **GPT-based**, and **fine-tuned BERT**) is included under the `code/` directory.
 
-## Quick navigation
+### Quick navigation
 
 | Area | Path |
 |---|---|
@@ -113,7 +113,7 @@ Code for conversational triple extraction baselines (**rule-based**, **GPT-based
 | Annotation guidelines | [`docs/annotation_guidelines.pdf`](docs/annotation_guidelines.pdf) |
 | SPACEQ questionnaire | [`docs/questionnaire_SPACEQ.pdf`](docs/questionnaire_SPACEQ.pdf) |
 
-# ⚙️ Requirements
+## ⚙️ Requirements
 Python 3.12.3 or above is required.
 
 Key packages include: 
@@ -121,19 +121,19 @@ Key packages include:
 numpy pandas torch spacy scikit-learn transformers optuna matplotlib openai contractions deepeval
 ```
 
-# 🔁 Reproducibility Note
+## 🔁 Reproducibility Note
 All scripts used to generate and evaluate the dataset are included for transparency.  
 
 The code is provided for inspection purposes only and does not need to be executed to use the dataset.
 
-# 📄 License
+## 📄 License
 Dataset: [CC BY 4.0](LICENSE-DATA)
 Code: [Apache 2.0](LICENSE-CODE)
 
-# 📝 Citation
+## 📝 Citation
 Citation information will be added upon paper publication.
 
-# 🙏 Acknowledgements
+## 🙏 Acknowledgements
 This work is part of the [CHIP software initiative](https://github.com/hybrid-intelligence/CHIP) 
 (den Hengst et al., 2026), a collaborative effort by Dutch institutions to develop a 
 Hybrid Intelligence system for Type 2 Diabetes management.
