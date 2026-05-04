@@ -1,5 +1,10 @@
 # Synthetic Patient–Agent Dialogues for Type 2 Diabetes Management
 
+![Python](https://img.shields.io/badge/Python-3.12%2B-blue?logo=python)
+![License Data](https://img.shields.io/badge/Dataset-CC%20BY%204.0-green)
+![License Code](https://img.shields.io/badge/Code-Apache%202.0-orange)
+![Workshop](https://img.shields.io/badge/CL4Health-LREC%202026-purple)
+
 This repository contains the data, code, and supporting materials for the paper:
  
 > **A Synthetic Conversational Dataset for Type 2 Diabetes Management**  
@@ -9,15 +14,13 @@ This repository contains the data, code, and supporting materials for the paper:
 # Overview
 We present a methodology for generating a high-quality synthetic conversational dataset designed for conversational triple extraction in Type 2 Diabetes management. The dataset includes 16 demographically diverse patient personas and 256 multi-turn patient–caretaker agent dialogues, annotated with Subject–Predicate–Object (SPO) labels at the token level. 
 
-This work is part of the *CHIP* software initiative (https://github.com/hybrid-intelligence/CHIP)
-
 The repository includes:
 - **Synthetic Data**: Persona biographies and multi-turn patient–agent conversations, along with the prompts used for their generation.
 - **Annotation Resources**: The complete SPO annotation schema, detailed annotation guidelines, and the annotated datasets (train, validation, and test splits).
 - **Conversational Triple Extraction (CTE)**: Source code and baseline models for rule-based, prompt-based, and fine-tuned approaches.
 - **Evaluation Materials**: The SPACEQ questionnaire and corresponding rating rubric used for LLM- and expert-based evaluation of dialogue quality.
 
-## Repository Structure
+## 🗂️ Repository Structure
  
 ```
 ├── code/                          # Triple extraction baselines
@@ -41,7 +44,7 @@ The repository includes:
     └── questionnaire_SPACEQ.pdf   # Human evaluation questionnaire
 ```
 
-# Contents
+# 📋 Contents
 ## 1. Dataset
 
 The `dataset/` directory includes all data resources used and described in the paper.
@@ -110,7 +113,7 @@ Code for conversational triple extraction baselines (**rule-based**, **GPT-based
 | Annotation guidelines | [`docs/annotation_guidelines.pdf`](docs/annotation_guidelines.pdf) |
 | SPACEQ questionnaire | [`docs/questionnaire_SPACEQ.pdf`](docs/questionnaire_SPACEQ.pdf) |
 
-# Requirements
+# ⚙️ Requirements
 Python 3.12.3 or above is required.
 
 Key packages include: 
@@ -118,16 +121,23 @@ Key packages include:
 numpy pandas torch spacy scikit-learn transformers optuna matplotlib openai contractions deepeval
 ```
 
-# Reproducibility Note
+# 🔁 Reproducibility Note
 All scripts used to generate and evaluate the dataset are included for transparency.  
 
 The code is provided for inspection purposes only and does not need to be executed to use the dataset.
 
-# License
+# 📄 License
 Dataset: [CC BY 4.0](LICENSE-DATA)
 Code: [Apache 2.0](LICENSE-CODE)
 
-# Citation
+# 📝 Citation
 Citation information will be added upon paper publication.
 
+# 🙏 Acknowledgements
+This work is part of the [CHIP software initiative](https://github.com/hybrid-intelligence/CHIP) 
+(den Hengst et al., 2026), a collaborative effort by Dutch institutions to develop a 
+Hybrid Intelligence system for Type 2 Diabetes management.
 
+Special thanks to my supervisors **Maaike H.T. de Boer** (TNO) and 
+**Piek Vossen** (Vrije Universiteit Amsterdam) for their guidance 
+and support throughout this project.
