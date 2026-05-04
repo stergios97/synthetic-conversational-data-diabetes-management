@@ -1,4 +1,4 @@
-# Synthetic Patient–Agent Dialogues for Type 2 Diabetes Management
+# Synthetic Patient–Caretaker Agent Dialogues for Type 2 Diabetes Management
 
 ![Python](https://img.shields.io/badge/Python-3.12%2B-blue?logo=python)
 ![License Data](https://img.shields.io/badge/Dataset-CC%20BY%204.0-green)
