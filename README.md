@@ -3,11 +3,13 @@
 This repository contains the data, code, and supporting materials for the paper:
  
 > **A Synthetic Conversational Dataset for Type 2 Diabetes Management**  
-> Stergios Ntanavaras, Maaike de Boer, Piek T.J.M. Vossen  
-> *CL4Health Workshop at LREC 2026, Palma de Mallorca, Spain*
+> Stergios Ntanavaras, Maaike H. T. de Boer, Piek Vossen  
+> *CL4Health Workshop at LREC 2026*
 
 # Overview
-We present a methodology for generating a high-quality synthetic conversational dataset designed for conversational triple extraction in Type 2 Diabetes management. The dataset includes 16 demographically diverse patient personas and 256 multi-turn patient–caretaker agent dialogues, annotated with Subject–Predicate–Object (SPO) labels at the token level. This work is part of the CHIP initiative 
+We present a methodology for generating a high-quality synthetic conversational dataset designed for conversational triple extraction in Type 2 Diabetes management. The dataset includes 16 demographically diverse patient personas and 256 multi-turn patient–caretaker agent dialogues, annotated with Subject–Predicate–Object (SPO) labels at the token level. 
+
+This work is part of the *CHIP* software initiative (https://github.com/hybrid-intelligence/CHIP)
 
 The repository includes:
 - **Synthetic Data**: Persona biographies and multi-turn patient–agent conversations, along with the prompts used for their generation.
@@ -109,7 +111,7 @@ Code for conversational triple extraction baselines (**rule-based**, **GPT-based
 | SPACEQ questionnaire | [`docs/questionnaire_SPACEQ.pdf`](docs/questionnaire_SPACEQ.pdf) |
 
 # Requirements
-This repository contains scripts implemented using Python 3.12.3 and Python 3.13.5.
+Python 3.12.3 or above is required.
 
 Key packages include: 
 ```bash
@@ -122,9 +124,10 @@ All scripts used to generate and evaluate the dataset are included for transpare
 The code is provided for inspection purposes only and does not need to be executed to use the dataset.
 
 # License
-CC BY 4.0 and the code under MIT
+Dataset: [CC BY 4.0](LICENSE-DATA)
+Code: [Apache 2.0](LICENSE-CODE)
 
 # Citation
-Citation information will be added upon acceptance of the paper.
+Citation information will be added upon paper publication.
 
 
