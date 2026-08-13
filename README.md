@@ -9,7 +9,7 @@ This repository contains the data, code, and supporting materials for the paper:
  
 > **A Synthetic Conversational Dataset for Type 2 Diabetes Management**  
 > Stergios Ntanavaras, Maaike H. T. de Boer, Piek Vossen  
-> *CL4Health Workshop at LREC 2026*
+> *CL4Health Workshop at LREC 2026* \\
 > abc
 
 URL: https://lrec.elra.info/lrec2026-ws-cl4health-16
