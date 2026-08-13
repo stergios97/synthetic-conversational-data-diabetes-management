@@ -10,6 +10,7 @@ This repository contains the data, code, and supporting materials for the paper:
 > **A Synthetic Conversational Dataset for Type 2 Diabetes Management**  
 > Stergios Ntanavaras, Maaike H. T. de Boer, Piek Vossen  
 > *CL4Health Workshop at LREC 2026*
+> URL: https://lrec.elra.info/lrec2026-ws-cl4health-16
 
 ## Overview
 We present a methodology for generating a high-quality synthetic conversational dataset designed for conversational triple extraction in Type 2 Diabetes management. The dataset includes 16 demographically diverse patient personas and 256 multi-turn patient–caretaker agent dialogues, annotated with Subject–Predicate–Object (SPO) labels at the token level. 
@@ -131,7 +132,22 @@ Dataset: [CC BY 4.0](LICENSE-DATA)
 Code: [Apache 2.0](LICENSE-CODE)
 
 ## 📝 Citation
-Citation information will be added upon paper publication.
+We kindly request you to cite this paper if you find it valuable for your research:
+```
+@inproceedings{ntanavaras-etal-2026-synthetic,
+  title = {A Synthetic Conversational Dataset for Type 2 Diabetes Management },
+  author = {Ntanavaras, Stergios and de Boer, Maaike and Vossen, Piek T.J.M.},
+  booktitle = {Proceedings of the Third Workshop on Patient-Oriented Language Processing (CL4Health) @ LREC 2026},
+  month = {May},
+  year = {2026},
+  pages = {171--181},
+  address = {Palma, Mallorca, Spain},
+  publisher = {European Language Resources Association (ELRA)},
+  editor = {Gupta, Deepak and Thompson, Paul and Ananiadou, Sophia and Demner-Fushman, Dina},
+  doi = {10.63317/3cbhekpxj33y},
+  abstract = {Access to real patient-doctor conversations in the medical domain is often restricted due to privacy concerns, making it difficult to build robust conversational AI systems. To address this, we present a novel methodology for generating a high-quality synthetic dataset designed for conversational triple extraction in Type 2 Diabetes management. Using structured prompting with GPT-4, we generated 16 demographically and medically diverse diabetic personas, and 256 multi-turn conversations between these personas and a caretaker agent, simulating realistic and context-rich interactions. The conversations incorporate critical properties such as personalization, empathy, contextual awareness, and medically grounded advice, as validated through both LLM-based and human expert evaluations. These synthetic conversations are further annotated with Subject-Predicate-Object (SPO) labels at the token level, integrating both manual and LLM-automated methods, forming the foundation for downstream tasks like triple extraction. Our work demonstrates the feasibility of using generative AI to simulate healthcare conversations at scale, offering a solution for data-scarce domains.}
+}
+```
 
 ## 🙏 Acknowledgements
 This work is part of the [CHIP software initiative](https://github.com/hybrid-intelligence/CHIP) 
