@@ -10,7 +10,8 @@ This repository contains the data, code, and supporting materials for the paper:
 > **A Synthetic Conversational Dataset for Type 2 Diabetes Management**  
 > Stergios Ntanavaras, Maaike H. T. de Boer, Piek Vossen  
 > *CL4Health Workshop at LREC 2026*
-> URL: https://lrec.elra.info/lrec2026-ws-cl4health-16
+
+URL: https://lrec.elra.info/lrec2026-ws-cl4health-16
 
 ## Overview
 We present a methodology for generating a high-quality synthetic conversational dataset designed for conversational triple extraction in Type 2 Diabetes management. The dataset includes 16 demographically diverse patient personas and 256 multi-turn patient–caretaker agent dialogues, annotated with Subject–Predicate–Object (SPO) labels at the token level. 
